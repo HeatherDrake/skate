@@ -1,28 +1,44 @@
-body{
-    background: url("./images/bg.jpg") no-repeat top/cover;
-    text-align: center;
+.jumbotron-fluid::after {
+  content: "";
 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  position: absolute;
+
+  background: url("./images/grid.png") no-repeat center/cover;
+
+  opacity: .4;
+}
+
+.decks{
+    background-color: white;
+    margin-top: 30px;
+    padding: 25px;
+}
+
+body{
+    background: url("./images/bg.jpg") no repeat top/cover;
+    text-align: center;
+    /*border: 2px solid black;*/
     position: relative;
     width: 100vw;
     height: 100vh;
 }
-
 .hero{
     position: relative;
 }
 .container{
      /*margin:0 auto;*/
      margin-top: 30px;
-
  }
-
 header{
     width:82%;
     display: inline-table;
     margin:0 auto;
-
 }
-
 .btn-primary {
     color: #fff;
     background-color: #9e2150;
@@ -30,7 +46,6 @@ header{
     margin-bottom: 10px;
     margin-top:10px;
 }
-
 .jumbotron-fluid{
     background: url("./images/top-image.png") no-repeat top/cover;
     padding: 4rem 2rem;
@@ -38,9 +53,7 @@ header{
     position: relative;
     margin: 0 auto;
     border: 2px solid black;
-
 }
-
 .skull-container {
     width: 25%;
     height:75%;
@@ -48,29 +61,22 @@ header{
     position:relative;
     z-index: 2;
 }
-
 .background-pic{
     position:relative;
     z-index: 1;
     text-align: center;
 }
-
 .three-boxes{
-
     position: relative;
     width: 68%;
     text-align: center;
     margin-left:16%;
     display: block;
-
 }
-
 .three{
-
     text-align: center;
     padding:0;
 }
-
 .inside{
     padding:5px;
     width:90%;
@@ -79,34 +85,25 @@ header{
     border:2px solid black;
     margin-top: 10px;
     background-color: white;
-
 }
-
 p{
     font-size: 15px;
 }
-
 .head-3{
     font-size: 20px;
 }
-
 .date{
     color:lightgray;
     font-size: 15px;
 }
-
-
-.decks{
-    background-color: white;
-    margin-top: 30px;
-    padding: 25px;
-
-}
-
-.boards{
-    margin:3px;
-}
-
+/*.decks{*/
+    /*background-color: white;*/
+    /*margin-top: 30px;*/
+    /*padding: 25px;*/
+/*}*/
+/*.boards{*/
+    /*margin:3px;*/
+/*}*/
 .left{
     width: 40%;
     display: inline-block;
@@ -115,29 +112,20 @@ p{
     text-align: center;
     position: relative;
 }
-
 .right {
     width: 40%;
     display: inline-block;
     text-align: center;
     position: relative;
 }
-
-
-
 .input{
     padding-top:10px;
-    margin: 5px;
+    margin: 5 px;
 }
-
-
-
 .container-fluid{
     background:url("./images/bg.jpg") no-repeat top/cover;
     z-index: -20;
-
 }
-
 .container-fluid::after{
     content: "";
     top:0;
@@ -148,43 +136,31 @@ p{
     background-color: lavenderblush;
     opacity: .5;
     z-index: -10;
-
 }
-
 .contact{
     background-color: white;
 }
-
 #cont-left{
     display: inline-block;
 }
-
 #cont-right{
     display: inline-block;
 }
-
 .name{
     position: relative;
     z-index: 10;
     display: inline-block;
 }
-
 .skater{
     position:relative;
     z-index: 1;
 }
-
-
-
-
 .col-md-4{
     margin-top: 7%;
 }
-
 .col-md-6{
     margin-top: 7%;
 }
-
 .contact-us{
     margin-top: 20px;
 }
