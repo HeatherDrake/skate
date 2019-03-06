@@ -120,7 +120,6 @@ p{
     width: 40%;
     display: inline-block;
     text-align: center;
-
     position: relative;
 }
 
@@ -128,7 +127,7 @@ p{
 
 .input{
     padding-top:10px;
-    margin: 5 px;
+    margin: 5px;
 }
 
 
